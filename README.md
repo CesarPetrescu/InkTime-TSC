@@ -100,16 +100,6 @@ Interface signals:
 - Chip select: `EPD_CS`
 - Control GPIOs: `EPD_DC`, `EPD_RST`, `EPD_BUSY`
 
-The design also includes the e-paper power and high-voltage drive circuitry:
-
-- Q1 P-channel MOSFET for display power gating
-- Q3 N-channel MOSFET for the boost stage
-- D2, D4, D5 Schottky diodes
-- L5 68 uH inductor
-- EPD_C1, EPD_C2, EPD_C5 to EPD_C12 as the filtering and storage capacitor bank
-
-This allows the display rail to be gated during sleep and supports the higher gate voltages needed by the electrophoretic panel.
-
 ### 4. Motion sensing
 
 **IC3 BMA421** is the accelerometer used for motion sensing, step counting, and interrupt-driven wake-up.
@@ -165,7 +155,7 @@ The watch uses three side buttons:
 - `SW_ENT`
 - `SW_DN`
 
-Each button is connected to a GPIO input and paired with a pull resistor and a 1 uF capacitor for debounce / conditioning, following the course reference schematic.
+Each button is connected to a GPIO input and paired with a pull resistor and a 1 uF capacitor for debounce.
 
 ## nRF52840 Pin Usage
 
@@ -230,10 +220,6 @@ This design is structured for low average current because:
 - wake-up can be interrupt-driven through the IMU and fuel-gauge alert
 - the charger supports low-power and ship-mode operation
 
-## PCB Implementation Notes
-
-The PCB is designed to follow the project constraints from the course page.
-
 ### Target PCB rules
 
 - 4-layer PCB (Top, Inner 1, Inner 2, Bottom)
@@ -258,64 +244,6 @@ The placement follows the course board-shape reference and groups components aro
 - J2 and the E-paper boost parts grouped together
 - IC3 placed close to the MCU while staying away from the antenna keepout area
 - IC2 placed close to the haptic output pads and motor connection path
-
-### Silkscreen policy
-
-The silkscreen should contain:
-
-- reference designators only
-- no component values
-- explicit test pad labels such as `SDA`, `SCL`, `SWDIO`, `SWDCLK`, `RESET`, `GND`, `3V3`, `VBAT`, `VREG`, `OUT+`, and `OUT-`
-
-## Verification and Sign-off Checklist
-
-Before the final EVT submission, verify the following:
-
-- schematic ERC complete
-- board DRC run with the course-provided DRC file from the project page
-- 0 airwires left in the board
-- no right-angle routes
-- all power nets routed with 0.3 mm width except where local fan-out forces a narrower neck-down under dense packages
-- all signal nets routed with at least 0.15 mm width
-- all 100 nF decoupling capacitors placed as close as possible to their destination pins
-- no copper, no signals, and no vias below the antenna keepout
-- dedicated inner GND plane present, with GND pours on top and bottom stitched to it via GND vias
-- test pads labeled in silkscreen
-- the PCB fits inside the provided enclosure geometry
-- USB-C opening and side-button alignment checked against the enclosure model
-
-## Accepted ERC and DRC Exceptions
-
-The project brief explicitly allows two special cases:
-
-1. ERC message **"Only INPUT pins on NET ID"** may be ignored.
-2. Dimension-related errors caused by the **three side buttons** and the **USB-C connector** may be accepted if they correspond exactly to the cases mentioned in the project statement.
-
-These are the only planned exceptions that should remain after final sign-off.
-
-## Mechanical Integration
-
-The final mechanical assembly must contain:
-
-- the PCB with all placed components
-- the enclosure provided by the course
-- a dimensionally correct 3D model for the battery
-- a dimensionally correct 3D model for the 1.54 inch e-paper display
-- a dimensionally correct 3D model for the FIT0774 shaker motor
-
-Mechanical points that matter for sign-off:
-
-- USB-C must align with the enclosure cutout
-- side buttons must align with the enclosure side features
-- the battery is connected directly to the PCB test pads, not through the JST plug
-- the display FPC must reach J2 without sharp folds or collisions
-- the exploded 3D assembly belongs in the `Mechanical/` folder as both `.step` and Fusion-native file
-
-Useful mechanical source dimensions:
-
-- Battery LP502030: approximately 32.5 × 21 × 5.5 mm as assembled with protection board and leads, according to the provided battery specification PDF
-- Waveshare 1.54 inch panel: 37.32 × 31.8 × 1.05 mm according to the provided display specification PDF
-- FIT0774 vibration motor: 10 × 2.7 mm according to the product page / distributor listing
 
 ## Design Log
 
