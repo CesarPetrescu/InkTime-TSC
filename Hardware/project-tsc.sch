@@ -80,7 +80,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="7" fill="4" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="no" active="no"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
 <layer number="104" name="Name" color="7" fill="1" visible="no" active="no"/>
@@ -95,7 +95,7 @@
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="no"/>
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
-<layer number="116" name="Patch_BOT" color="7" fill="4" visible="no" active="no"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
 <layer number="117" name="PM_Ref" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="119" name="PF_Ref" color="7" fill="1" visible="no" active="no"/>
@@ -150,15 +150,15 @@
 <layer number="195" name="mNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="196" name="mValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
-<layer number="200" name="200bmp" color="7" fill="10" visible="no" active="no"/>
-<layer number="201" name="201bmp" color="7" fill="10" visible="no" active="no"/>
-<layer number="202" name="202bmp" color="7" fill="10" visible="no" active="no"/>
-<layer number="203" name="203bmp" color="7" fill="10" visible="no" active="no"/>
-<layer number="204" name="204bmp" color="7" fill="10" visible="no" active="no"/>
-<layer number="205" name="205bmp" color="7" fill="10" visible="no" active="no"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="no"/>
-<layer number="207" name="207bmp" color="7" fill="10" visible="no" active="no"/>
-<layer number="208" name="208bmp" color="7" fill="10" visible="no" active="no"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="209" name="209bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="210" name="210bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="211" name="211bmp" color="7" fill="1" visible="no" active="no"/>
@@ -187,7 +187,7 @@
 <layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
-<layer number="251" name="SMDround" color="7" fill="11" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
 <layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
 <layer number="253" name="Extra" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="no"/>
@@ -3606,6 +3606,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="POWER" width="0.3048" drill="0">
+</class>
 </classes>
 <parts>
 <part name="IC1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="BQ25180YBGR_BQ25180YBGR" device="" value="BQ25180YBGR"/>
@@ -3680,7 +3682,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <part name="SUPPLY25" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY26" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY27" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
-<part name="U$16" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="NORDIC_NRF_2_INDUCTOR" device="_0402_L" value="3.9nH"/>
+<part name="L1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="NORDIC_NRF_2_INDUCTOR" device="_0402_L" value="3.9nH"/>
 <part name="ANT1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="2450AT18B100E_2450AT18B100E" device="" value="2450AT18B100E"/>
 <part name="C4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_N" value="1pF"/>
 <part name="C3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_N" value="1pF"/>
@@ -3714,7 +3716,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <part name="SJ1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="ESP32_C6_LIBRARY_7_JUMPER_SJ" device=""/>
 <part name="SUPPLY37" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY38" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
-<part name="DMG2305UX-7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="ESP32_C6_LIBRARY_4_ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH" device="-DMG2305UX-7" value="20V/4.2A/52mΩ/1.4W"/>
+<part name="Q1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="ESP32_C6_LIBRARY_4_ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH" device="-DMG2305UX-7" value="20V/4.2A/52mΩ/1.4W"/>
 <part name="R_PWR_EPD" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
 <part name="TP_OP" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="TP_ON" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
@@ -3732,11 +3734,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <part name="SUPPLY44" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
 <part name="C31" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="GRM011R60J152KE01L_2_GRM011R60J152KE01L" device="" value="1uF"/>
 <part name="SW_ENT" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="2025-10-22_07-23-44_LIBRARY_EVP-AKE31A" device="SW_EVP-AKE31A_PAN"/>
-<part name="R4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
+<part name="R8" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
 <part name="SUPPLY45" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
 <part name="C29" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="GRM011R60J152KE01L_2_GRM011R60J152KE01L" device="" value="1uF"/>
 <part name="SW_DN" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="2025-10-22_07-23-44_LIBRARY_EVP-AKE31A" device="SW_EVP-AKE31A_PAN"/>
-<part name="R6" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
+<part name="R7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
 <part name="TP_VBAT" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="TP_BAT_GND" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="SUPPLY46" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
@@ -3775,6 +3777,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <part name="C43" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="4.7uF"/>
 <part name="C42" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="GRM011R60J152KE01L_2_GRM011R60J152KE01L" device="" value="0.1uF"/>
 <part name="SUPPLY14" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
+<part name="SUPPLY24" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -4047,7 +4050,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <instance part="SUPPLY27" gate="G$1" x="200.66" y="-50.8" smashed="yes">
 <attribute name="VALUE" x="200.66" y="-52.705" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="U$16" gate="L$1" x="185.42" y="-38.1" smashed="yes" rot="R90">
+<instance part="L1" gate="L$1" x="185.42" y="-38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="190.5" y="-39.37" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="190.5" y="-34.29" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -4173,7 +4176,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <instance part="SUPPLY38" gate="G$1" x="-60.96" y="-284.48" smashed="yes">
 <attribute name="VALUE" x="-60.96" y="-286.385" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="DMG2305UX-7" gate="G$1" x="-33.02" y="-223.52" smashed="yes">
+<instance part="Q1" gate="G$1" x="-33.02" y="-223.52" smashed="yes">
 <attribute name="NAME" x="-27.94" y="-223.52" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="-27.94" y="-226.06" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -4237,7 +4240,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <instance part="SW_ENT" gate="A" x="139.7" y="-259.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="137.6299" y="-259.3548" size="3.48" layer="95" ratio="10" rot="R90"/>
 </instance>
-<instance part="R4" gate="G$1" x="144.78" y="-215.9" smashed="yes" rot="R270">
+<instance part="R8" gate="G$1" x="144.78" y="-215.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="151.13" y="-229.87" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="148.59" y="-229.87" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
@@ -4251,7 +4254,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <instance part="SW_DN" gate="A" x="175.26" y="-259.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="173.1899" y="-259.3548" size="3.48" layer="95" ratio="10" rot="R90"/>
 </instance>
-<instance part="R6" gate="G$1" x="180.34" y="-215.9" smashed="yes" rot="R270">
+<instance part="R7" gate="G$1" x="180.34" y="-215.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="186.69" y="-229.87" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="184.15" y="-229.87" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
@@ -4390,11 +4393,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <instance part="SUPPLY14" gate="G$1" x="-91.44" y="-55.88" smashed="yes">
 <attribute name="VALUE" x="-91.44" y="-57.785" size="1.778" layer="96" align="center"/>
 </instance>
+<instance part="SUPPLY24" gate="G$1" x="182.88" y="-88.9" smashed="yes">
+<attribute name="VALUE" x="182.88" y="-90.805" size="1.778" layer="96" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="VREG" class="0">
+<net name="VREG" class="1">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SYS"/>
 <wire x1="-63.5" y1="22.86" x2="-68.58" y2="22.86" width="0.1524" layer="91"/>
@@ -4470,7 +4476,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <label x="5.08" y="-307.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="VBUS" class="0">
+<net name="VBUS" class="1">
 <segment>
 <pinref part="IC1" gate="G$1" pin="IN"/>
 <wire x1="-63.5" y1="27.94" x2="-76.2" y2="27.94" width="0.1524" layer="91"/>
@@ -4522,7 +4528,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <label x="68.58" y="-55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="C38" gate="G$1" pin="1"/>
 <wire x1="-76.2" y1="15.24" x2="-76.2" y2="12.7" width="0.1524" layer="91"/>
@@ -4975,6 +4981,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <junction x="-91.44" y="-40.64"/>
 <pinref part="SUPPLY14" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="SUPPLY24" gate="G$1" pin="GND"/>
+<pinref part="C8" gate="C$1" pin="2"/>
+<wire x1="182.88" y1="-78.74" x2="182.88" y2="-86.36" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
@@ -4983,7 +4994,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="VBAT" class="0">
+<net name="VBAT" class="1">
 <segment>
 <pinref part="C37" gate="G$1" pin="2"/>
 <wire x1="-17.78" y1="22.86" x2="-17.78" y2="27.94" width="0.1524" layer="91"/>
@@ -5056,7 +5067,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <label x="7.62" y="-312.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="3V3" class="0">
+<net name="3V3" class="1">
 <segment>
 <pinref part="C14" gate="C$1" pin="1"/>
 <wire x1="71.12" y1="5.08" x2="71.12" y2="10.16" width="0.1524" layer="91"/>
@@ -5174,7 +5185,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <label x="-38.1" y="-200.66" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="DMG2305UX-7" gate="G$1" pin="S"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="-30.48" y1="-228.6" x2="-30.48" y2="-236.22" width="0.1524" layer="91"/>
 <label x="-30.48" y="-236.22" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -5188,7 +5199,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <label x="78.74" y="-223.52" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="-215.9" x2="144.78" y2="-208.28" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="-208.28" x2="116.84" y2="-208.28" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -5196,7 +5207,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <label x="127" y="-208.28" size="1.778" layer="95" rot="R90" xref="yes"/>
 <wire x1="144.78" y1="-208.28" x2="180.34" y2="-208.28" width="0.1524" layer="91"/>
 <junction x="144.78" y="-208.28"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="-215.9" x2="180.34" y2="-208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5679,7 +5690,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <wire x1="147.32" y1="-241.3" x2="149.86" y2="-241.3" width="0.1524" layer="91"/>
 <junction x="147.32" y="-241.3"/>
 <label x="149.86" y="-241.3" size="1.778" layer="95" xref="yes"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="EPD_DC" class="0">
@@ -5775,7 +5786,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 </segment>
 <segment>
 <pinref part="R_PWR_EPD" gate="G$1" pin="2"/>
-<pinref part="DMG2305UX-7" gate="G$1" pin="G"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="-38.1" y1="-226.06" x2="-40.64" y2="-226.06" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="-226.06" x2="-43.18" y2="-226.06" width="0.1524" layer="91"/>
 <junction x="-40.64" y="-226.06"/>
@@ -5801,7 +5812,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <wire x1="182.88" y1="-241.3" x2="185.42" y2="-241.3" width="0.1524" layer="91"/>
 <junction x="182.88" y="-241.3"/>
 <label x="185.42" y="-241.3" size="1.778" layer="95" xref="yes"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="P1.03" class="0">
@@ -5876,7 +5887,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <wire x1="203.2" y1="-38.1" x2="203.2" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="-33.02" x2="203.2" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="-38.1" x2="195.58" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="U$16" gate="L$1" pin="2"/>
+<pinref part="L1" gate="L$1" pin="2"/>
 <wire x1="195.58" y1="-38.1" x2="193.04" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="-38.1" x2="195.58" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="-40.64" x2="193.04" y2="-40.64" width="0.1524" layer="91"/>
@@ -5887,7 +5898,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 </net>
 <net name="N$75" class="0">
 <segment>
-<pinref part="U$16" gate="L$1" pin="1"/>
+<pinref part="L1" gate="L$1" pin="1"/>
 <pinref part="C3" gate="C$1" pin="1"/>
 <wire x1="177.8" y1="-40.64" x2="177.8" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="-38.1" x2="170.18" y2="-38.1" width="0.1524" layer="91"/>
@@ -5896,13 +5907,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <pinref part="U1" gate="G$1" pin="ANT@H23"/>
 </segment>
 </net>
-<net name="N$72" class="0">
-<segment>
-<pinref part="C8" gate="C$1" pin="2"/>
-<wire x1="182.88" y1="-78.74" x2="182.88" y2="-83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="EPD_3V3" class="0">
+<net name="EPD_3V3" class="1">
 <segment>
 <pinref part="C1-ED-DR" gate="C$1" pin="1"/>
 <wire x1="-157.48" y1="-215.9" x2="-157.48" y2="-213.36" width="0.1524" layer="91"/>
@@ -5922,6 +5927,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <junction x="-99.06" y="-396.24"/>
 <label x="-101.6" y="-396.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="EDP_C5" gate="C$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<wire x1="-30.48" y1="-218.44" x2="-30.48" y2="-215.9" width="0.1524" layer="91"/>
+<label x="-30.48" y="-215.9" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -6036,13 +6046,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <wire x1="-106.68" y1="-363.22" x2="-99.06" y2="-363.22" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="3"/>
 <label x="-106.68" y="-363.22" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="EDP_3V3" class="0">
-<segment>
-<pinref part="DMG2305UX-7" gate="G$1" pin="D"/>
-<wire x1="-30.48" y1="-218.44" x2="-30.48" y2="-215.9" width="0.1524" layer="91"/>
-<label x="-30.48" y="-215.9" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="OUT+" class="0">
