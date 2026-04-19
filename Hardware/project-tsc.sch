@@ -3640,8 +3640,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <part name="C24" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="10uF"/>
 <part name="SUPPLY11" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY12" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
-<part name="R1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
-<part name="R2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
+<part name="R1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="0"/>
+<part name="R2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="0"/>
 <part name="C25" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="22uF"/>
 <part name="C33" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="22uF"/>
 <part name="SUPPLY13" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
@@ -3750,8 +3750,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <part name="SUPPLY51" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
 <part name="C27" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="GRM011R60J152KE01L_2_GRM011R60J152KE01L" device="" value="0.1uF"/>
 <part name="J2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="503480-2400_503480-2400" device=""/>
-<part name="EDP_C2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="10uF"/>
-<part name="EDP_C1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="10uF"/>
+<part name="EDP_C2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="1uF"/>
+<part name="EDP_C1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="1uF"/>
 <part name="EDP_C5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="0.1uF/50V"/>
 <part name="EDP_C6" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="1uF/50V"/>
 <part name="EDP_C7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.kHyW2j0lSQGBfLdbHOMXug" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="1uF/50V"/>
@@ -4293,8 +4293,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <attribute name="VALUE" x="63.50848125" y="-312.42" size="1.78096875" layer="96" rot="R90"/>
 </instance>
 <instance part="J2" gate="G$1" x="-73.66" y="-358.14" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-95.25" y="-350.52" size="1.778" layer="95" rot="MR0" align="center-left"/>
-<attribute name="VALUE" x="-95.25" y="-353.06" size="1.778" layer="96" rot="MR0" align="center-left"/>
+<attribute name="NAME" x="-95.25" y="-347.98" size="1.778" layer="95" rot="MR0" align="center-left"/>
+<attribute name="VALUE" x="-95.25" y="-350.52" size="1.778" layer="96" rot="MR0" align="center-left"/>
 </instance>
 <instance part="EDP_C2" gate="C$1" x="-116.84" y="-365.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="-117.221" y="-364.236" size="1.778" layer="95" rot="R90"/>
@@ -5390,7 +5390,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <pinref part="IC9" gate="G$1" pin="SW2_1"/>
 <wire x1="-58.42" y1="-27.94" x2="-55.88" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="-58.42" y="-27.94"/>
-<label x="-55.88" y="-27.94" size="1.778" layer="95" xref="yes"/>
+<label x="-55.88" y="-27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -6016,9 +6016,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <label x="-88.9" y="-200.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-104.14" y1="-360.68" x2="-99.06" y2="-360.68" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-360.68" x2="-99.06" y2="-360.68" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="2"/>
-<label x="-104.14" y="-360.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-106.68" y="-360.68" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -6045,7 +6045,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 <segment>
 <wire x1="-106.68" y1="-363.22" x2="-99.06" y2="-363.22" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="3"/>
-<label x="-106.68" y="-363.22" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-106.68" y="-363.22" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="OUT+" class="0">
@@ -6188,6 +6188,57 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,76.2,-25.4,U1,DEC1,3V1,,,"/>
+<approved hash="104,1,76.2,-60.96,U1,VDD,3V3,,,"/>
+<approved hash="104,1,137.16,-7.62,U1,VDD,3V3,,,"/>
+<approved hash="104,1,101.6,-7.62,U1,VSS,GND,,,"/>
+<approved hash="104,1,99.06,-7.62,U1,DEC4,N$3,,,"/>
+<approved hash="104,1,93.98,-7.62,U1,VDD,3V3,,,"/>
+<approved hash="104,1,76.2,-63.5,U1,VDDH,3V3,,,"/>
+<approved hash="104,1,116.84,-86.36,U1,VDD,3V3,,,"/>
+<approved hash="104,1,154.94,-68.58,U1,VDD,3V3,,,"/>
+<approved hash="104,1,48.26,-292.1,U2,CTG,GND,,,"/>
+<approved hash="104,1,48.26,-294.64,U2,CELL,VBAT,,,"/>
+<approved hash="104,1,48.26,-297.18,U2,VDD,VBAT,,,"/>
+<approved hash="104,1,48.26,-299.72,U2,EP,GND,,,"/>
+<approved hash="106,1,76.2,-38.1,P0.04,,,,,"/>
+<approved hash="106,1,154.94,-40.64,P0.09,,,,,"/>
+<approved hash="106,1,119.38,-86.36,P0.19,,,,,"/>
+<approved hash="106,1,121.92,-86.36,P0.20,,,,,"/>
+<approved hash="106,1,124.46,-86.36,P0.21,,,,,"/>
+<approved hash="106,1,127,-86.36,P0.22,,,,,"/>
+<approved hash="106,1,129.54,-86.36,P0.23,,,,,"/>
+<approved hash="106,1,132.08,-86.36,P0.24,,,,,"/>
+<approved hash="106,1,134.62,-86.36,P0.25,,,,,"/>
+<approved hash="106,1,76.2,-33.02,P0.26,,,,,"/>
+<approved hash="106,1,76.2,-35.56,P0.27,,,,,"/>
+<approved hash="106,1,111.76,-7.62,P0.28,,,,,"/>
+<approved hash="106,1,109.22,-7.62,P0.29,,,,,"/>
+<approved hash="106,1,106.68,-7.62,P0.30,,,,,"/>
+<approved hash="106,1,104.14,-7.62,P0.31,,,,,"/>
+<approved hash="106,1,154.94,-55.88,P1.03,,,,,"/>
+<approved hash="106,1,154.94,-53.34,P1.04,,,,,"/>
+<approved hash="106,1,154.94,-50.8,P1.05,,,,,"/>
+<approved hash="106,1,154.94,-48.26,P1.06,,,,,"/>
+<approved hash="106,1,154.94,-45.72,P1.07,,,,,"/>
+<approved hash="106,1,76.2,-53.34,P1.09,,,,,"/>
+<approved hash="106,1,134.62,-7.62,P1.10,,,,,"/>
+<approved hash="106,1,132.08,-7.62,P1.11,,,,,"/>
+<approved hash="106,1,127,-7.62,P1.12,,,,,"/>
+<approved hash="106,1,124.46,-7.62,P1.13,,,,,"/>
+<approved hash="106,1,121.92,-7.62,P1.14,,,,,"/>
+<approved hash="106,1,119.38,-7.62,P1.15,,,,,"/>
+<approved hash="108,1,73.66,-243.84,GND,,,,,"/>
+<approved hash="108,1,177.8,-38.1,N$75,,,,,"/>
+<approved hash="110,1,48.26,-317.5,ALERT,GND,,,,"/>
+<approved hash="111,1,180.34,-38.1,GND,,,,,"/>
+<approved hash="111,1,177.8,-43.18,N$69,,,,,"/>
+<approved hash="111,1,48.26,-317.5,ALERT,,,,,"/>
+<approved hash="113,1,18.311,-50.269,FRAME1,,,,,"/>
+<approved hash="113,1,18.311,-314.429,FRAME2,,,,,"/>
+<approved hash="113,1,-75.2704,-261.62,SJ1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
